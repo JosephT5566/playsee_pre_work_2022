@@ -1,0 +1,24 @@
+{
+  "name": "playsee-fe-test",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "post-update": "yarn upgrade --latest"
+  },
+  "dependencies": {
+    "axios": "0.24.0",
+    "intersection-observer": "0.12.0",
+    "next": "latest",
+    "path": "0.12.7",
+    "react": "17.0.2",
+    "react-device-detect": "2.1.2",
+    "react-dom": "17.0.2",
+    "sass": "1.49.0",
+    "styled-components": "5.3.3"
+  },
+  "license": "MIT",
+  "keywords": [],
+  "description": ""
+}
