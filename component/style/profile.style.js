@@ -12,10 +12,13 @@ export const ProfileContainer = styled.section`
   bottom: 0;
   left: 0;
   width: 100%;
-  overflow: hidden;
+  padding: 3rem max(1rem, calc((100vw - 1200px) / 2));
+  overflow: auto;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  // justify-content: center;
   align-items: center;
+  gap: 1rem;
   color: ${sty_labelLightL1};
   font-size: 16px;
   text-align: cneter;
